@@ -1,4 +1,5 @@
 import React from 'react'
+import StarRating from './components/StarRating'
 import {
   BrowserRouter as Router,
   Routes,
@@ -35,6 +36,7 @@ function App() {
             </li>
           </ul>
         </nav>
+        <div><StarRating rating={3.5}/></div>
 
         <Routes>
           <Route path="/apropos" element={<About />} />
