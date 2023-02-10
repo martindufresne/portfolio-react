@@ -1,6 +1,7 @@
 import React from 'react'
 import StarRating from './components/StarRating'
 import Contact from './contents/Contact'
+import Search from './components/Search'
 import {
   BrowserRouter as Router,
   Routes,
@@ -33,6 +34,7 @@ function App() {
             </li>
           </ul>
         </nav>
+        <div><Search/></div>
         <div><StarRating rating={3}/></div>
 
         <Routes>
