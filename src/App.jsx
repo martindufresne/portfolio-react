@@ -1,5 +1,6 @@
 import React from 'react'
 import StarRating from './components/StarRating'
+import Contact from './contents/Contact'
 import {
   BrowserRouter as Router,
   Routes,
@@ -13,10 +14,6 @@ function Home() {
 
 function About() {
   return <h2>A propos</h2>
-}
-
-function Contact() {
-  return <h2>Contact</h2>
 }
 
 function App() {
@@ -36,7 +33,7 @@ function App() {
             </li>
           </ul>
         </nav>
-        <div><StarRating rating={3.5}/></div>
+        <div><StarRating rating={3}/></div>
 
         <Routes>
           <Route path="/apropos" element={<About />} />
