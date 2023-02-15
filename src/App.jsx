@@ -2,6 +2,7 @@ import React from 'react'
 import StarRating from './components/StarRating'
 import Contact from './contents/Contact'
 import Search from './components/Search'
+import ContactForm from './components/ContactForm'
 import {
   BrowserRouter as Router,
   Routes,
@@ -32,11 +33,16 @@ function App() {
             <li>
             <Link to="/contact">Contact</Link>
             </li>
+            <li>
+            <Link to="/portfolio">Portfolio</Link>
+            </li>
           </ul>
         </nav>
         <div><Search/></div>
         <div><StarRating rating={3}/></div>
-
+        <div><ContactForm /></div>
+        
+        
         <Routes>
           <Route path="/apropos" element={<About />} />
           <Route path="/contact" element={<Contact />} />
