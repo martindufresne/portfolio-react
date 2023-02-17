@@ -3,6 +3,8 @@ import StarRating from './components/StarRating'
 import Contact from './contents/Contact'
 import Search from './components/Search'
 import ContactForm from './components/ContactForm'
+import Memo from './components/Memo'
+import PopularMovies from './components/PopularsMovies'
 import {
   BrowserRouter as Router,
   Routes,
@@ -41,8 +43,8 @@ function App() {
         <div><Search/></div>
         <div><StarRating rating={3}/></div>
         <div><ContactForm /></div>
-        
-        
+        <div><Memo /></div>
+        <div><PopularMovies /></div>    
         <Routes>
           <Route path="/apropos" element={<About />} />
           <Route path="/contact" element={<Contact />} />
