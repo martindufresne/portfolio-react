@@ -15,7 +15,7 @@ function ContactForm() {
         <div>
             <form onSubmit={handleSubmit}>
                 <label>
-                    Adresse test courriel:
+                    Adresse courriel:
                     <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
                 </label>
                 <br />
