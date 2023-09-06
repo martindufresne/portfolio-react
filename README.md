@@ -7,7 +7,7 @@ Ce projet à pour but de vous faire développer un portfolio en React afin de vo
 
 ## Installation
 
-Installer mon projet avec npm
+Installer mon projet avec npm.
 
 ```bash
   cd portfolio-react
